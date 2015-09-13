@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+   
+	    <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="60dp"
+	        android:background="#999999"
+	         >
+	         <TextView 
+	             android:id="@+id/pager0"
+	             android:layout_width="0dp"
+	             android:layout_weight="1"
+	             android:text="首页"
+	             android:gravity="center"
+	             android:layout_height="fill_parent"
+	             />
+	           <TextView 
+	             android:id="@+id/pager1"
+	             android:layout_width="0dp"
+	             android:layout_weight="1"
+	           
+	             android:text="评论"
+	             android:gravity="center"
+	             android:layout_height="fill_parent"
+	             />
+	             <TextView 
+	             android:id="@+id/pager2"
+	             android:layout_width="0dp"
+	             android:layout_weight="1"
+	             android:text="私信"
+	        
+	             android:gravity="center"
+	             android:layout_height="fill_parent"
+	             />
+	        </LinearLayout>  
+            <View 
+	        android:id="@+id/cursior"
+	        android:layout_width="80dp"
+	        android:layout_height="2dp"
+	        android:background="#ff5000"
+	        />
+	   
+  
+     <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_height="0dp"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        />
+    
+
+</LinearLayout>
