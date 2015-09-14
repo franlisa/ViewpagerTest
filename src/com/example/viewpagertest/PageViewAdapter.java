@@ -8,10 +8,12 @@ import android.view.View;
 
 public class PageViewAdapter extends PagerAdapter{
 	List<View> mList;
+  
 	public PageViewAdapter(List<View> list) {
 		// TODO Auto-generated constructor stub
 		mList=list;
 	}
+	
 
 	@Override
 	public int getCount() {
@@ -36,5 +38,6 @@ public class PageViewAdapter extends PagerAdapter{
 		// TODO Auto-generated method stub
 	    ((ViewPager)container).removeView(mList.get(position));
 	}
+
 
 }
